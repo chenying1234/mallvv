@@ -1,0 +1,3584 @@
+label.error {
+	clear: both;
+	display: block;
+	color: red !important;
+	text-align: left;
+	margin-left: 64px;
+	margin-top: 38px;
+}
+
+.quick-login {
+	background: #FFF;
+	overflow: hidden;
+	width: 278px;
+	padding: 0 40px;
+}
+
+.quick-login dl {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.quick-login dl dt {
+	line-height: 20px;
+	height: 20px;
+	margin: 8px 0 2px 0;
+	text-shadow: 1px 1px 0 #FFF;
+}
+
+.quick-login dl dd span {
+	line-height: 28px;
+	color: #999;
+	margin-left: 8px;
+}
+
+.quick-login .text {
+	font-family: Tahoma;
+	width: 250px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #FFF;
+	padding: 1px 2px 3px 4px !important;
+	padding: 3px 2px 1px 4px;
+	border: solid 1px;
+	border-color: #CCC #DDD #DDD #CCC;
+	border-radius: 0;
+}
+
+.quick-login .text:focus {
+	background-color: #FFF;
+	border-color: #CCC;
+	box-shadow: 1px 1px 1px 0 #E7E7E7;
+	-moz-box-shadow: 1px 1px 1px 0 #E7E7E7/* if FF*/
+	;
+	-webkit--box-shadow: 1px 1px 1px 0 #E7E7E7/* if Webkie*/
+	;
+}
+
+.quick-login ul {
+	width: 100%;
+	display: block;
+	clear: both;
+	margin: 20px auto 10px auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border-bottom: solid 1px #E7E7E7;
+}
+
+.quick-login ul li {
+	line-height: 20px;
+	color: #999;
+}
+
+.quick-login ul li a {
+	text-decoration: underline;
+	font-weight: 600;
+	margin: 0 2px;
+}
+
+.quick-login ul li a.forget {
+	color: #FF7F00;
+}
+
+.quick-login ul li a.register {
+	color: #006DD9;
+}
+
+.quick-login .enter {
+	width: 100%;
+	margin: 10px auto 20px auto;
+	overflow: hidden;
+}
+
+.quick-login .enter .submit {
+	color: #FFF;
+	font-weight: 600;
+	background: url(../images/login.png) no-repeat scroll 0px 0px;
+	width: 88px;
+	height: 28px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #DB7800;
+}
+
+.quick-login .enter .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -28px;
+}
+
+.quick-login .enter span {
+	border-left: dotted 1px #ccc;
+	padding-left: 6px;
+	margin: 0 0 0 6px;
+	line-height: 28px;
+}
+
+.quick-login .enter span a {
+	background-image: url(../images/login.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 28px;
+	display: inline-block;
+}
+
+.quick-login .enter span a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.quick-login .enter span a:hover.qq {
+	background-position: -88px -28px;
+	text-decoration: none;
+}
+
+.quick-login .enter span a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.quick-login .enter span a:hover.sina {
+	background-position: -166px -28px;
+	text-decoration: none;
+}
+
+
+/* 注册表单样式 */
+
+.nc-login-layout {
+	width: 850px;
+	margin: 0 auto
+}
+
+.nc-login {
+	width: 400px;
+	float: right;
+}
+
+.nc-login-title {
+	background: #F9F9F9;
+	border: #D8D8D8 solid;
+	border-width: 1px 1px 0 1px;
+}
+
+.nc-login-title h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	line-height: 20px;
+	padding: 15px 0 25px 25px;
+	color: #555;
+}
+
+.nc-login-content {
+	background: #F9F9F9;
+	padding: 0 20px;
+	border: #D8D8D8 solid;
+	border-width: 0 1px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.nc-login-content dl {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0;
+}
+
+.nc-login-content dt {
+	font-size: 14px;
+	line-height: 28px;
+	color: #777;
+	text-align: right;
+	width: 22%;
+	float: left;
+}
+
+.nc-login-content dd {
+	text-align: left;
+	width: 75%;
+	float: right;
+}
+
+.nc-login-content dd label {
+	clear: both;
+	float: left;
+	line-height: 24px;
+	height: 24px;
+	width: 210px;
+	margin: 0;
+}
+
+.nc-login-content dd .text {
+	font-family: Tahoma;
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #FFF;
+	padding: 3px!important;
+	border: solid 1px;
+	border-color: #BBB;
+}
+
+.nc-login-content dd .text:focus {
+	background-color: #FFF;
+	border-color: #EFA100;
+	outline: 2px solid #FFDC97;
+}
+
+.nc-login-content dd a {
+	line-height: 28px;
+	height: 28px;
+	text-align: left;
+	color: #999;
+}
+
+.nc-login-content .submit {
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	background: url(../images/login.png) no-repeat scroll 0px -56px;
+	vertical-align: middle;
+	width: 98px;
+	height: 34px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.nc-login-content .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -90px;
+}
+
+.nc-login-layout a.forget {
+	font-weight: 700;
+	color: #06C;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.nc-login-layout a.register {
+	font-weight: 600;
+	line-height: 26px;
+	color: #555;
+	background: #FFF url(../images/login.png) no-repeat scroll -98px -56px;
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	height: 26px;
+	margin: 0 6px;
+}
+
+.nc-login-layout a:hover.register {
+	background-position: -98px -82px;
+	color: #000;
+	text-decoration: none;
+}
+
+.nc-login-layout a.agreement {
+	color: #c53801;
+	font-weight: 600;
+}
+
+.nc-login-layout a.agreement:hover {
+	text-decoration: underline;
+}
+
+.nc-login-other {
+	border-top: dashed 1px #D8D8D8;
+	padding: 10px 0px 20px 28%;
+}
+
+.nc-login-other p {
+	line-height: 20px;
+	color: #777;
+}
+
+.nc-login-other a {
+	text-decoration: none;
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	margin-top: 10px;
+	height: 28px;
+}
+
+.nc-login-other a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.nc-login-other a:hover.qq {
+	background-position: -88px -28px;
+}
+
+.nc-login-other a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.nc-login-other a:hover.sina {
+	background-position: -166px -28px;
+}
+
+.nc-login-bottom {
+	clear: both;
+	background: url(../images/login.png) no-repeat scroll 0px -124px;
+	width: 400px;
+	height: 40px;
+}
+
+.nc-login-layout .left-pic {
+	background-color: #FFF;
+	width: 450px;
+	height: 350px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login-layout .left-pic img {
+	width: 450px;
+	height: 350px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0
+}
+
+.nc-login-layout .left-pic span {
+	position: absolute;
+	z-index: 2;
+	top: 220px;
+	left: 100px;
+	line-height: 32px;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	width: 250px;
+	text-align: center;
+}
+
+.nc-login-layout .left-pic p a {
+	color: #FFF;
+	position: absolute;
+	z-index: 2;
+	top: 270px;
+	left: 165px;
+	line-height: 28px;
+	font-size: 12px;
+	width: 120px;
+	text-align: center;
+}
+
+.nc-login-left {
+	line-height: 22px;
+	color: #626A73;
+	display: inline;
+	width: 450px;
+	float: left;
+	margin: 10px 0;
+}
+
+.nc-login-left h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	color: #555;
+	line-height: 30px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+.nc-login-left ol {
+	width: 420px;
+	margin-top: 20px;
+	border-bottom: dashed 1px #E7E7E7;
+}
+
+.nc-login-left ol li {
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 48px;
+	display: block;
+	vertical-align: middle;
+	width: 200px;
+	height: 48px;
+	float: left;
+	padding: 0 0 12px 0;
+	margin: 0 0 5px 10px;
+	overflow: hidden;
+}
+
+.nc-login-left ol li i {
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+.nc-login-left ol li.ico01 i {
+	background-position: -256px 0;
+}
+
+.nc-login-left ol li.ico02 i {
+	background-position: -304px 0;
+}
+
+.nc-login-left ol li.ico03 i {
+	background-position: -352px 0;
+}
+
+.nc-login-left ol li.ico04 i {
+	background-position: -256px -48px;
+}
+
+.nc-login-left ol li.ico05 i {
+	background-position: -304px -48px;
+}
+
+.nc-login-left ol li.ico06 i {
+	background-position: -352px -48px;
+}
+
+@media projection,
+screen {
+	.ui-tabs-hide {
+		display: none;
+	}
+}
+
+@media print {
+	.ui-tabs-nav {
+		display: none;
+	}
+}
+
+.ui-tabs-nav:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.ui-tabs-disabled {
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+
+.ui-tabs-loading em {
+	background: url(../images/index/loading.gif) no-repeat 0 50%;
+	padding: 0 0 0 20px;
+}
+
+* html .ui-tabs-nav {
+	display: inline-block;
+}
+
+*:first-child+html .ui-tabs-nav {
+	display: inline-block;
+}
+
+.nc-login ul li {
+	background: #FFF;
+	display: block;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 1px 1px;
+	float: left;
+	width: 199px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 5px -1px 0 -1px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 28px;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login ul li a {
+	color: #999;
+}
+
+.nc-login ul li.ui-tabs-selected {
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 0 1px;
+	background: #F9F9F9;
+	float: left;
+	width: 198px;
+	height: 36px;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.nc-login ul li.ui-tabs-selected a {
+	color: #333;
+}
+
+.register-style input {
+	color: #666;
+	text-align: left;
+}
+
+input::-moz-placeholder {
+	color: #666;
+}
+
+input::-webkit-input-placeholder {
+	color: #666;
+}
+
+input::-ms-input-placeholder {
+	color: #666;
+}
+
+.text-left {
+	float: left;
+}
+
+.text-right {
+	float: right;
+}
+
+.color-yellow {
+	color: #ff9900 !important;
+}
+
+.text-decoration: {
+	text-decoration: underline !important;
+}
+
+.login-con {
+	margin: 0px auto;
+	text-align: center;
+	width: 1200px;
+}
+
+.register-bt {
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #ddd;
+	margin: 60px 0px;
+	font-size: 0px;
+}
+
+.register-bt ul {
+	margin: 0px auto;
+	text-align: center;
+	width:875px;
+}
+
+.register-bt li {
+	min-width: 100px;
+	padding: 0px 50px;
+	
+	text-align: center;
+	margin: 0px auto;
+	color: #333;
+	padding-bottom: 10px;
+	margin: 0px 30px;
+	float:left;
+	display: inline;
+}
+
+.register-bt span {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #dcdcdc;
+	display: block;
+	float: left;
+	border-radius: 100%;
+	font-size: 14px;
+}
+
+.register-bt p {
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.register-bt li.register-bt-active {
+	border-bottom: 2px solid #ff9801;
+}
+
+.register-bt li.register-bt-active span {
+	background: #ff9801;
+}
+
+#register-Index {
+	margin: 0px auto;
+	width: 405px;
+	text-align: center;
+	display:block;
+}
+#register-Index p{
+	line-height:17px;
+}
+
+.register-style div {
+	position: relative;
+	width: 400px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.register-style div.register-wrap-big {
+	width: 100% !important;
+	height: 45px;
+}
+
+.register-style div.border-none {
+	border: none !important;
+}
+
+.register-style div.border-small {
+	width: 240px;
+	float: left;
+}
+
+.register-style input {
+	margin-left: 10px;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+	background: none;
+	font-size: 14px;
+	float: left;
+	width: 320px;
+}
+
+.register-style .input-small {
+	width: 160px;
+}
+
+.register-style input[type=button] {
+	cursor: pointer !important;
+}
+
+.register-style .yanzhengma {
+	width: 150px;
+	background: #ddd;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	float: Left;
+	margin-left: 10px !important;
+}
+
+.register-style input[type="checkbox"] {
+	position: absolute;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+	float: left;
+	margin-left: 0px;
+}
+
+.register-style input[type="checkbox"] + label {
+	width: 16px;
+	height: 16px;
+	display: block;
+	cursor: pointer;
+	border-radius: 100%;
+	border: 1px solid #333;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+}
+
+.register-style input[type="checkbox"]:checked + label {
+	width: 16px;
+	background: url(../images/accept-icon.png) 0px center no-repeat !important;
+	border: 1px solid transparent !important;
+}
+
+.register-style .button-break {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+#register-Index p {
+	position: absolute;
+	left: 40px;
+}
+
+#register-Index p a {
+	color: #0199cb;
+}
+
+.register-style i {
+	margin-left: 15px;
+	height: 25px;
+	display: block;
+	padding-right: 15px;
+	border-right: 1px solid #ddd;
+	float:left;
+}
+
+.register-style .register-icon1 {
+	width: 20px;
+	background: url(../images/register-tel-icon.png) left center no-repeat;
+}
+
+.register-style .register-icon2 {
+	width: 21px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+#register-Email {
+	margin: 0px auto;
+	width: 405px;
+	text-align: center;
+}
+
+.register-style .register-icon3 {
+	width: 21px;
+	background: url(../images/register-email-icon.png) left center no-repeat;
+	background-size: 21px auto;
+}
+
+
+/*register-Email end*/
+
+#register-Infor {
+	margin: 0px auto;
+	width: 400px;
+	text-align: center;
+}
+
+#register-Infor p {
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#register-Infor p span {
+	color: #666;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.register-style .register-icon4 {
+	width: 22px;
+	background: url(../images/password-icon1.png) left center no-repeat;
+}
+
+.register-style .register-icon5 {
+	width: 22px;
+	background: url(../images/password-icon2.png) left center no-repeat;
+}
+
+.register-style .register-icon6 {
+	width: 22px;
+	background: url(../images/user-icon.png) left center no-repeat;
+}
+
+
+/*register-Infor end*/
+
+.register-success {
+	width: 510px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+	display:block;
+	font-size:16px;
+}
+
+.success-icon {
+	width: 96px;
+	height: 96px;
+	background: url(../images/success-icon.png);
+	display: block;
+	float: left;
+}
+.email-success{
+	width:510px !important;
+	font-size:16px;
+	display:block;
+}
+.email-success p{
+	width:390px !important;
+	
+}
+.register-success p {
+	width: 390px;
+	margin: 20px 0px;
+	text-align: left;
+}
+
+.register-success p .text-left {
+	color: #fda500;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fda500;
+}
+
+.register-success p .text-right {
+	color: #c70001;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c70001;
+}
+
+
+/*register-success end*/
+
+.register-after {
+	width: 500px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+}
+
+.register-after p {
+	margin: 20px 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.register-after p span {
+	font-weight: normal;
+	margin-left: 20px;
+	color: #666;
+}
+
+.success-btn {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	font-weight: normal;
+}
+
+.register-after .text-decoration {
+	width: 400px;
+	text-align: center;
+	color: #ff9900;
+	text-decoration: underline;
+	font-weight: normal;
+	display: block;
+}
+
+.login-conr {
+	width: 530px;
+	height: auto;
+	background: url(../images/login-top.png) left top no-repeat;
+}
+
+.login-conrcon {
+	width: 300px;
+	background: #fff;
+	padding:0px 20px 0px 20px;
+	text-align: left;
+	margin:19px auto 0px 101px;
+}
+
+#login-form {}
+
+#login-form div {
+	width: 300px !important;
+}
+
+#login-form p {
+	margin-bottom: 20px;
+}
+
+.parter-list {
+	font-size: 0px;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.parter-list li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+#login-form .button-break {
+	height: 40px;
+	line-height: 40px;
+}
+
+.parter-bt {
+	border-top: 1px solid #ddd;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.parter-bt span {
+	width: 50%;
+	background: #fff;
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	margin-top: -14px;
+	font-size: 14px;
+}
+
+.register-footer {
+	margin: 40px auto 20px auto;
+}
+
+.register-footer ul {
+	font-size: 0px;
+}
+
+.register-footer ul li {
+	display: inline-block;
+	font-size: 14px;
+	height: 15px;
+	line-height: 15px;
+	margin-bottom: 10px;
+	border-right: 1px solid #ddd;
+	padding: 0px 10px;
+}
+
+.register-footer ul li:last-child {
+	border-right: none;
+}
+
+.register-footer ul li a {
+	color: #666;
+}
+
+.register-footer p {
+	color: #999;
+	font-size: 14px;
+}
+
+#btn-get-code {
+	width: 150px;
+	background: #ddd;
+	color: #fff;
+	border-radius: 5px;
+	height: 45px;
+	line-height: 45px;
+}
+
+#password-email {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	display:block;
+}
+#password-email .w50{
+	width:160px !important;
+}
+.login-con dl {
+	line-height: 40px;
+}
+
+.login-con dl dt {
+	float: Left;
+}
+
+.login-con dl dd input {
+	width: 70px !important;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+}
+
+.login-con dl img {
+	margin-top: 7px;
+}
+
+.login-conrcon p {
+	font-size: 14px;
+}
+
+.login-conrcon span.text-right {
+	float: right !important;
+	text-align: right;
+}
+
+.alignL {
+	text-align: left;
+}
+
+.alignR {
+	text-align: right;
+}
+
+.alignC {
+	text-align: center;
+}
+
+.pt70 {
+	padding-top: 70px;
+}
+
+.ico {
+	background: url(../images/register-ico.gif) no-repeat;
+}
+
+
+/*找回密码*/
+
+.step {
+	width: 540px;
+	margin: 0 auto;
+	height: 100;
+	line-height: 40px;
+}
+
+.step p {
+	width: 502px;
+	height: 25px;
+	display: black;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.step p.step1 {
+	background-position: 0 0;
+}
+
+.step p.step2 {
+	background-position: 0 -25px;
+}
+
+.step p.step3 {
+	background-position: 0 -50px;
+}
+
+.step span {
+	width: 33.33%;
+	display: inline-block;
+	font-size: 16px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.findPswForm {
+	margin: 0 65px;
+}
+
+.findPswForm h3 {
+	margin-bottom: 5px;
+}
+
+.findPswForm li {
+	height: 50px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.findPswForm li i {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 60px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.findPswForm li i.user {
+	background-position: 5px -80px;
+}
+
+.findPswForm li i.code {
+	background-position: 5px -133px;
+}
+
+.findPswForm li i.codeNew {
+	background-position: 5px -193px;
+}
+
+.findPswForm input {
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+}
+
+.findPswForm input[type="password"] {
+	border: 1px solid #ddd;
+	width: 320px;
+	padding-left: 80px;
+}
+
+#find_password_form input[type="password"] {
+	border: 1px solid #ddd;
+	width: 320px;
+	padding-left: 80px;
+}
+
+#find_password_form input[type="text"] {
+	border: 1px solid #ddd;
+	width: 320px;
+	padding-left: 80px;
+}
+#find_password_form input.user{
+	border: 1px solid #ddd;
+	width: 160px !important;
+	padding-left: 80px;
+}
+
+#find_password_form .user {
+	width: 60px !important;
+}
+
+.findPswForm input.user {
+	width: 160px;
+}
+
+.findPswForm input[type="button"] {
+	width: 150px;
+	background: #ddd;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.findPswForm input[type="submit"] {
+	background: #ff9900;
+	border: 1px solid #ff9900;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #fff;
+	width: 400px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+/*找回密码成功*/
+
+.findPswSucc {
+	margin-top: 100px;
+	margin-left: 230px;
+	font-size: 12px;
+	color: #999;
+	position: relative;
+}
+
+.findPswSucc i {
+	width: 98px;
+	height: 98px;
+	position: absolute;
+	left: -120px;
+	top: 0;
+	background-position: -405px -90px;
+}
+
+.findPswSucc h3 {
+	line-height: 50px;
+	font-size: 24px;
+	color: #333;
+}
+
+.findPswSucc a {
+	color: #ffa500;
+	font-size: 16px;
+	text-decoration: underline;
+	margin-left: 60px;
+}
+
+
+label.error {
+	color: #F30;
+}
+
+.quick-login {
+	background: #FFF;
+	overflow: hidden;
+	width: 278px;
+	padding: 0 40px;
+}
+
+.quick-login dl {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.quick-login dl dt {
+	line-height: 20px;
+	height: 20px;
+	margin: 8px 0 2px 0;
+	text-shadow: 1px 1px 0 #FFF;
+}
+
+.quick-login dl dd span {
+	line-height: 28px;
+	color: #999;
+	margin-left: 8px;
+}
+
+
+.quick-login .text:focus {
+	background-color: #FFF;
+	border-color: #CCC;
+	box-shadow: 1px 1px 1px 0 #E7E7E7;
+	-moz-box-shadow: 1px 1px 1px 0 #E7E7E7-webkit--box-shadow: 1px 1px 1px 0 #E7E7E7;
+}
+
+.quick-login ul {
+	width: 100%;
+	display: block;
+	clear: both;
+	margin: 20px auto 10px auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border-bottom: solid 1px #E7E7E7;
+}
+
+.quick-login ul li {
+	line-height: 20px;
+	color: #999;
+}
+
+.quick-login ul li a {
+	text-decoration: underline;
+	font-weight: 600;
+	margin: 0 2px;
+}
+
+.quick-login ul li a.forget {
+	color: #FF7F00;
+}
+
+.quick-login ul li a.register {
+	color: #006DD9;
+}
+
+.quick-login .enter {
+	width: 100%;
+	margin: 10px auto 20px auto;
+	overflow: hidden;
+}
+
+.quick-login .enter .submit {
+	color: #FFF;
+	font-weight: 600;
+	background: url(../images/login.png) no-repeat scroll 0px 0px;
+	width: 88px;
+	height: 28px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #DB7800;
+}
+
+.quick-login .enter .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -28px;
+}
+
+.quick-login .enter span {
+	border-left: dotted 1px #ccc;
+	padding-left: 6px;
+	margin: 0 0 0 6px;
+	line-height: 28px;
+}
+
+.quick-login .enter span a {
+	background-image: url(../images/login.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 28px;
+	display: inline-block;
+}
+
+.quick-login .enter span a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.quick-login .enter span a:hover.qq {
+	background-position: -88px -28px;
+	text-decoration: none;
+}
+
+.quick-login .enter span a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.quick-login .enter span a:hover.sina {
+	background-position: -166px -28px;
+	text-decoration: none;
+}
+
+
+/* 注册表单样式 */
+
+.nc-login-layout {
+	width: 850px;
+	margin: 0 auto
+}
+
+.nc-login {
+	width: 400px;
+	float: right;
+}
+
+.nc-login-title {
+	background: #F9F9F9;
+	border: #D8D8D8 solid;
+	border-width: 1px 1px 0 1px;
+}
+
+.nc-login-title h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	line-height: 20px;
+	padding: 15px 0 25px 25px;
+	color: #555;
+}
+
+.nc-login-content {
+	background: #F9F9F9;
+	padding: 0 20px;
+	border: #D8D8D8 solid;
+	border-width: 0 1px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.nc-login-content dl {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0;
+}
+
+.nc-login-content dt {
+	font-size: 14px;
+	line-height: 28px;
+	color: #777;
+	text-align: right;
+	width: 22%;
+	float: left;
+}
+
+.nc-login-content dd {
+	text-align: left;
+	width: 75%;
+	float: right;
+}
+
+.nc-login-content dd label {
+	clear: both;
+	float: left;
+	line-height: 24px;
+	height: 24px;
+	width: 210px;
+	margin: 0;
+}
+
+.nc-login-content dd .text {
+	font-family: Tahoma;
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #FFF;
+	padding: 3px!important;
+	border: solid 1px;
+	border-color: #BBB;
+}
+
+.nc-login-content dd .text:focus {
+	background-color: #FFF;
+	border-color: #EFA100;
+	outline: 2px solid #FFDC97;
+}
+
+.nc-login-content dd a {
+	line-height: 28px;
+	height: 28px;
+	text-align: left;
+	color: #999;
+}
+
+.nc-login-content .submit {
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	background: url(../images/login.png) no-repeat scroll 0px -56px;
+	vertical-align: middle;
+	width: 98px;
+	height: 34px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.nc-login-content .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -90px;
+}
+
+.nc-login-layout a.forget {
+	font-weight: 700;
+	color: #06C;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.nc-login-layout a.register {
+	font-weight: 600;
+	line-height: 26px;
+	color: #555;
+	background: #FFF url(../images/login.png) no-repeat scroll -98px -56px;
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	height: 26px;
+	margin: 0 6px;
+}
+
+.nc-login-layout a:hover.register {
+	background-position: -98px -82px;
+	color: #000;
+	text-decoration: none;
+}
+
+.nc-login-layout a.agreement {
+	color: #c53801;
+	font-weight: 600;
+}
+
+.nc-login-layout a.agreement:hover {
+	text-decoration: underline;
+}
+
+.nc-login-other {
+	border-top: dashed 1px #D8D8D8;
+	padding: 10px 0px 20px 28%;
+}
+
+.nc-login-other p {
+	line-height: 20px;
+	color: #777;
+}
+
+.nc-login-other a {
+	text-decoration: none;
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	margin-top: 10px;
+	height: 28px;
+}
+
+.nc-login-other a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.nc-login-other a:hover.qq {
+	background-position: -88px -28px;
+}
+
+.nc-login-other a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.nc-login-other a:hover.sina {
+	background-position: -166px -28px;
+}
+
+.nc-login-bottom {
+	clear: both;
+	background: url(../images/login.png) no-repeat scroll 0px -124px;
+	width: 400px;
+	height: 40px;
+}
+
+.nc-login-layout .left-pic {
+	background-color: #FFF;
+	width: 450px;
+	height: 350px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login-layout .left-pic img {
+	width: 450px;
+	height: 350px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0
+}
+
+.nc-login-layout .left-pic span {
+	position: absolute;
+	z-index: 2;
+	top: 220px;
+	left: 100px;
+	line-height: 32px;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	width: 250px;
+	text-align: center;
+}
+
+.nc-login-layout .left-pic p a {
+	color: #FFF;
+	position: absolute;
+	z-index: 2;
+	top: 270px;
+	left: 165px;
+	line-height: 28px;
+	font-size: 12px;
+	width: 120px;
+	text-align: center;
+}
+
+.nc-login-left {
+	line-height: 22px;
+	color: #626A73;
+	display: inline;
+	width: 450px;
+	float: left;
+	margin: 10px 0;
+}
+
+.nc-login-left h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	color: #555;
+	line-height: 30px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+.nc-login-left ol {
+	width: 420px;
+	margin-top: 20px;
+	border-bottom: dashed 1px #E7E7E7;
+}
+
+.nc-login-left ol li {
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 48px;
+	display: block;
+	vertical-align: middle;
+	width: 200px;
+	height: 48px;
+	float: left;
+	padding: 0 0 12px 0;
+	margin: 0 0 5px 10px;
+	overflow: hidden;
+}
+
+.nc-login-left ol li i {
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+.nc-login-left ol li.ico01 i {
+	background-position: -256px 0;
+}
+
+.nc-login-left ol li.ico02 i {
+	background-position: -304px 0;
+}
+
+.nc-login-left ol li.ico03 i {
+	background-position: -352px 0;
+}
+
+.nc-login-left ol li.ico04 i {
+	background-position: -256px -48px;
+}
+
+.nc-login-left ol li.ico05 i {
+	background-position: -304px -48px;
+}
+
+.nc-login-left ol li.ico06 i {
+	background-position: -352px -48px;
+}
+
+@media projection,
+screen {
+	.ui-tabs-hide {
+		display: none;
+	}
+}
+
+@media print {
+	.ui-tabs-nav {
+		display: none;
+	}
+}
+
+.ui-tabs-nav:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.ui-tabs-disabled {
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+
+.ui-tabs-loading em {
+	background: url(../images/loading.gif) no-repeat 0 50%;
+	padding: 0 0 0 20px;
+}
+
+* html .ui-tabs-nav {
+	display: inline-block;
+}
+
+*:first-child+html .ui-tabs-nav {
+	display: inline-block;
+}
+
+.nc-login ul li {
+	background: #FFF;
+	display: block;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 1px 1px;
+	float: left;
+	width: 199px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 5px -1px 0 -1px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 28px;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login ul li a {
+	color: #999;
+}
+
+.nc-login ul li.ui-tabs-selected {
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 0 1px;
+	background: #F9F9F9;
+	float: left;
+	width: 198px;
+	height: 36px;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.nc-login ul li.ui-tabs-selected a {
+	color: #333;
+}
+
+
+/*修改人：楚士丽*/
+
+
+/*修改时间：2016-4-14*/
+
+.register-style input {
+	color: #666;
+	text-align: left;
+}
+
+input::-moz-placeholder {
+	color: #666;
+}
+
+input::-webkit-input-placeholder {
+	color: #666;
+}
+
+input::-ms-input-placeholder {
+	color: #666;
+}
+
+.text-left {
+	float: left;
+}
+
+.text-right {
+	float: right;
+}
+
+.color-yellow {
+	color: #ff9900 !important;
+}
+
+.text-decoration: {
+	text-decoration: underline !important;
+}
+
+
+/*.wrapper {
+	margin: 0px auto;
+	text-align: center;
+	width: 1200px;
+}*/
+
+.login-con {
+	margin: 0px auto;
+	text-align: center;
+	width: 1200px;
+}
+
+.register-bt {
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #ddd;
+	margin: 60px 0px;
+	font-size: 0px;
+}
+
+.register-bt ul {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.register-bt span {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #dcdcdc;
+	display: block;
+	float: left;
+	border-radius: 100%;
+	font-size: 14px;
+}
+
+.register-bt p {
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.register-bt li.register-bt-active {
+	border-bottom: 2px solid #ff9801;
+}
+
+.register-bt li.register-bt-active span {
+	background: #ff9801;
+}
+
+#register-Index {
+	margin: 0px auto;
+	width: 405px;
+	text-align: center;
+}
+
+.register-style div {
+	position: relative;
+	width: 400px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.register-style div.register-wrap-big {
+	width: 100% !important;
+	height: 45px;
+}
+
+.register-style div.border-none {
+	border: none !important;
+}
+
+.register-style div.border-small {
+	width: 240px;
+	float: left;
+}
+
+.register-style .input-small {
+	width: 160px;
+}
+
+.register-style input[type=button] {
+	cursor: pointer !important;
+}
+
+.register-style .yanzhengma {
+	width: 150px;
+	/*height: 48px;
+	line-height: 48px;*/
+	background: #ddd;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	float: Left;
+	margin-left: 10px !important;
+}
+
+.register-style input[type="checkbox"] {
+	position: absolute;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+	float: left;
+	margin-left: 0px;
+}
+
+.register-style input[type="checkbox"] + label {
+	width: 16px;
+	height: 16px;
+	display: block;
+	cursor: pointer;
+	border-radius: 100%;
+	border: 1px solid #333;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+}
+
+.register-style input[type="checkbox"]:checked + label {
+	width: 16px;
+	background: url(../images/accept-icon.png) 0px center no-repeat !important;
+	border: 1px solid transparent !important;
+}
+
+.register-style .button-break {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+#register-Index p {
+	position: absolute;
+	left: 40px;
+}
+
+#register-Index p a {
+	color: #0199cb;
+}
+
+.register-style .register-icon1 {
+	width: 20px;
+	background: url(../images/register-tel-icon.png) left center no-repeat;
+}
+
+.register-style .register-icon2 {
+	width: 21px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+
+/*register-Index end*/
+
+#register-Email {
+	margin: 0px auto;
+	width: 405px;
+	text-align: center;
+}
+
+.register-style .register-icon3 {
+	width: 21px;
+	background: url(../images/register-email-icon.png) left center no-repeat;
+	background-size: 21px auto;
+}
+
+
+/*register-Email end*/
+
+#register-Infor {
+	margin: 0px auto;
+	width: 400px;
+	text-align: center;
+}
+
+#register-Infor p {
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#register-Infor p span {
+	color: #666;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.register-style .register-icon4 {
+	width: 22px;
+	background: url(../images/password-icon1.png) left center no-repeat;
+}
+
+.register-style .register-icon5 {
+	width: 22px;
+	background: url(../images/password-icon2.png) left center no-repeat;
+}
+
+.register-style .register-icon6 {
+	width: 22px;
+	background: url(../images/user-icon.png) left center no-repeat;
+}
+
+
+/*register-Infor end*/
+
+.register-success {
+	width: 340px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+}
+
+.success-icon {
+	width: 96px;
+	height: 96px;
+	background: url(../images/success-icon.png);
+	display: block;
+	float: left;
+}
+
+.register-success p {
+	width: 200px;
+	margin: 20px 0px;
+	text-align: left;
+}
+
+.register-success p .text-left {
+	color: #fda500;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fda500;
+}
+
+.register-success p .text-right {
+	color: #c70001;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c70001;
+}
+
+
+/*register-success end*/
+
+.register-after {
+	width: 500px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+}
+
+.register-after p {
+	margin: 20px 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.register-after p span {
+	font-weight: normal;
+	margin-left: 20px;
+	color: #666;
+}
+
+.success-btn {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	font-weight: normal;
+}
+
+.register-after .text-decoration {
+	width: 400px;
+	text-align: center;
+	color: #ff9900;
+	text-decoration: underline;
+	font-weight: normal;
+	display: block;
+}
+
+
+/*register-after end*/
+
+
+#login-form {}
+
+#login-form div {
+	width: 300px !important;
+}
+
+#login-form p {
+	margin-bottom: 20px;
+}
+
+.parter-list {
+	font-size: 0px;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.parter-list li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+#login-form .button-break {
+	height: 40px;
+	line-height: 40px;
+}
+
+.parter-bt {
+	border-top: 1px solid #ddd;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.parter-bt span {
+	width: 50%;
+	background: #fff;
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	margin-top: -14px;
+	font-size: 14px;
+}
+
+
+/*login end*/
+
+.register-footer {
+	margin: 40px auto 20px auto;
+}
+
+.register-footer ul {
+	font-size: 0px;
+}
+
+.register-footer ul li {
+	display: inline-block;
+	font-size: 14px;
+	height: 15px;
+	line-height: 15px;
+	margin-bottom: 10px;
+	border-right: 1px solid #ddd;
+	padding: 0px 10px;
+}
+
+.register-footer ul li:last-child {
+	border-right: none;
+}
+
+.register-footer ul li a {
+	color: #666;
+}
+
+.register-footer p {
+	color: #999;
+	font-size: 14px;
+}
+
+#btn-get-code {
+	width: 150px;
+	background: #ddd;
+	color: #fff;
+	border-radius: 5px;
+	height: 47px;
+	line-height: 47px;
+}
+
+#password-email {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.login-con dl {
+	line-height: 40px;
+}
+
+.login-con dl dt {
+	float: Left;
+}
+
+.login-con dl dd input {
+	width: 70px !important;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ddd;
+	margin-left: 10px;
+}
+
+.login-con dl img {
+	margin-top: 7px;
+}
+
+.login-conrcon p {
+	font-size: 14px;
+}
+
+.login-conrcon span.text-right {
+	float: right !important;
+	text-align: right;
+}
+
+
+/*register footer end*/
+
+
+/*
+	author:wenxp
+	date:2016-04-12
+*/
+
+.alignL {
+	text-align: left;
+}
+
+.alignR {
+	text-align: right;
+}
+
+.alignC {
+	text-align: center;
+}
+
+.pt70 {
+	padding-top: 70px;
+}
+
+.ico {
+	background: url(../images/register-ico.gif) no-repeat;
+}
+
+
+/*找回密码*/
+
+.step {
+	width: 540px;
+	margin: 0 auto;
+	height: 100;
+	line-height: 40px;
+}
+
+.step p {
+	width: 502px;
+	height: 25px;
+	display: black;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.step p.step1 {
+	background-position: 0 0;
+}
+
+.step p.step2 {
+	background-position: 0 -25px;
+}
+
+.step p.step3 {
+	background-position: 0 -50px;
+}
+
+.step span {
+	width: 33.33%;
+	display: inline-block;
+	font-size: 16px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.findPswForm {
+	margin: 0 65px;
+}
+
+.findPswForm h3 {
+	margin-bottom: 5px;
+}
+
+.findPswForm li {
+	height: 50px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.findPswForm li i {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 60px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.findPswForm li i.user {
+	background-position: 5px -80px;
+}
+
+.findPswForm li i.code {
+	background-position: 5px -133px;
+}
+
+.findPswForm li i.codeNew {
+	background-position: 5px -193px;
+}
+
+.findPswForm input {
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+}
+
+.findPswForm input[type="password"] {
+	border: 1px solid #ddd;
+	width: 320px;
+	padding-left: 80px;
+}
+
+.findPswForm input.user {
+	width: 160px;
+}
+
+.findPswForm input[type="button"] {
+	width: 150px;
+	background: #ddd;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.findPswForm input[type="submit"] {
+	background: #ff9900;
+	border: 1px solid #ff9900;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #fff;
+	width: 400px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+/*找回密码成功*/
+
+.findPswSucc {
+	margin-top: 100px;
+	margin-left: 230px;
+	font-size: 12px;
+	color: #999;
+	position: relative;
+}
+
+.findPswSucc i {
+	width: 98px;
+	height: 98px;
+	position: absolute;
+	left: -120px;
+	top: 0;
+	background-position: -405px -90px;
+}
+
+.findPswSucc h3 {
+	line-height: 50px;
+	font-size: 24px;
+	color: #333;
+}
+
+.findPswSucc a {
+	color: #ffa500;
+	font-size: 16px;
+	text-decoration: underline;
+	margin-left: 60px;
+}
+
+
+/*新增样式*/
+
+=======@charset "utf-8";
+
+/* ================================ */
+
+
+/* 商城注册登录页面相关样式定义 			*/
+
+
+/* Author:			heilong		*/
+
+
+/* 	*/
+
+
+/* Create Date:		Aug-10-2012		*/
+
+
+/* Retrofit Date:	Sep-01-2012		*/
+
+
+/* ================================ */
+
+label.error {
+	color: #F30;
+}
+
+.quick-login {
+	background: #FFF;
+	overflow: hidden;
+	width: 278px;
+	padding: 0 40px;
+}
+
+.quick-login dl {
+	width: 100%;
+	margin: 0 auto 15px auto;
+	overflow: hidden;
+}
+
+.quick-login dl dt {
+	line-height: 20px;
+	height: 20px;
+	margin: 8px 0 2px 0;
+	text-shadow: 1px 1px 0 #FFF;
+}
+
+.quick-login dl dd span {
+	line-height: 28px;
+	color: #999;
+	margin-left: 8px;
+}
+
+.quick-login .text:focus {
+	background-color: #FFF;
+	border-color: #CCC;
+	box-shadow: 1px 1px 1px 0 #E7E7E7;
+	-moz-box-shadow: 1px 1px 1px 0 #E7E7E7/* if FF*/
+	;
+	-webkit--box-shadow: 1px 1px 1px 0 #E7E7E7/* if Webkie*/
+	;
+}
+
+.quick-login ul {
+	width: 100%;
+	display: block;
+	clear: both;
+	margin: 20px auto 10px auto;
+	padding-bottom: 10px;
+	overflow: hidden;
+	border-bottom: solid 1px #E7E7E7;
+}
+
+.quick-login ul li {
+	line-height: 20px;
+	color: #999;
+}
+
+.quick-login ul li a {
+	text-decoration: underline;
+	font-weight: 600;
+	margin: 0 2px;
+}
+
+.quick-login ul li a.forget {
+	color: #FF7F00;
+}
+
+.quick-login ul li a.register {
+	color: #006DD9;
+}
+
+.quick-login .enter {
+	width: 100%;
+	margin: 10px auto 20px auto;
+	overflow: hidden;
+}
+
+.quick-login .enter .submit {
+	color: #FFF;
+	font-weight: 600;
+	background: url(../images/login.png) no-repeat scroll 0px 0px;
+	width: 88px;
+	height: 28px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #DB7800;
+}
+
+.quick-login .enter .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -28px;
+}
+
+.quick-login .enter span {
+	border-left: dotted 1px #ccc;
+	padding-left: 6px;
+	margin: 0 0 0 6px;
+	line-height: 28px;
+}
+
+.quick-login .enter span a {
+	background-image: url(../images/login.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 28px;
+	display: inline-block;
+}
+
+.quick-login .enter span a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.quick-login .enter span a:hover.qq {
+	background-position: -88px -28px;
+	text-decoration: none;
+}
+
+.quick-login .enter span a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.quick-login .enter span a:hover.sina {
+	background-position: -166px -28px;
+	text-decoration: none;
+}
+
+
+/* 注册表单样式 */
+
+.nc-login-layout {
+	width: 850px;
+	margin: 0 auto
+}
+
+.nc-login {
+	width: 400px;
+	float: right;
+}
+
+.nc-login-title {
+	background: #F9F9F9;
+	border: #D8D8D8 solid;
+	border-width: 1px 1px 0 1px;
+}
+
+.nc-login-title h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	line-height: 20px;
+	padding: 15px 0 25px 25px;
+	color: #555;
+}
+
+.nc-login-content {
+	background: #F9F9F9;
+	padding: 0 20px;
+	border: #D8D8D8 solid;
+	border-width: 0 1px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.nc-login-content dl {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0;
+}
+
+.nc-login-content dt {
+	font-size: 14px;
+	line-height: 28px;
+	color: #777;
+	text-align: right;
+	width: 22%;
+	float: left;
+}
+
+.nc-login-content dd {
+	text-align: left;
+	width: 75%;
+	float: right;
+}
+
+.nc-login-content dd label {
+	clear: both;
+	float: left;
+	line-height: 24px;
+	height: 24px;
+	width: 210px;
+	margin: 0;
+}
+
+.nc-login-content dd .text {
+	font-family: Tahoma;
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #FFF;
+	padding: 3px!important;
+	border: solid 1px;
+	border-color: #BBB;
+}
+
+.nc-login-content dd .text:focus {
+	background-color: #FFF;
+	border-color: #EFA100;
+	outline: 2px solid #FFDC97;
+}
+
+.nc-login-content dd a {
+	line-height: 28px;
+	height: 28px;
+	text-align: left;
+	color: #999;
+}
+
+.nc-login-content .submit {
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	background: url(../images/login.png) no-repeat scroll 0px -56px;
+	vertical-align: middle;
+	width: 98px;
+	height: 34px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+}
+
+.nc-login-content .submit:hover {
+	background: url(../images/login.png) no-repeat scroll 0px -90px;
+}
+
+.nc-login-layout a.forget {
+	font-weight: 700;
+	color: #06C;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.nc-login-layout a.register {
+	font-weight: 600;
+	line-height: 26px;
+	color: #555;
+	background: #FFF url(../images/login.png) no-repeat scroll -98px -56px;
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	height: 26px;
+	margin: 0 6px;
+}
+
+.nc-login-layout a:hover.register {
+	background-position: -98px -82px;
+	color: #000;
+	text-decoration: none;
+}
+
+.nc-login-layout a.agreement {
+	color: #c53801;
+	font-weight: 600;
+}
+
+.nc-login-layout a.agreement:hover {
+	text-decoration: underline;
+}
+
+.nc-login-other {
+	border-top: dashed 1px #D8D8D8;
+	padding: 10px 0px 20px 28%;
+}
+
+.nc-login-other p {
+	line-height: 20px;
+	color: #777;
+}
+
+.nc-login-other a {
+	text-decoration: none;
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	margin-top: 10px;
+	height: 28px;
+}
+
+.nc-login-other a.qq {
+	background-position: -88px 0px;
+	width: 78px;
+}
+
+.nc-login-other a:hover.qq {
+	background-position: -88px -28px;
+}
+
+.nc-login-other a.sina {
+	background-position: -166px 0px;
+	width: 88px;
+}
+
+.nc-login-other a:hover.sina {
+	background-position: -166px -28px;
+}
+
+.nc-login-bottom {
+	clear: both;
+	background: url(../images/login.png) no-repeat scroll 0px -124px;
+	width: 400px;
+	height: 40px;
+}
+
+.nc-login-layout .left-pic {
+	background-color: #FFF;
+	width: 450px;
+	height: 350px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login-layout .left-pic img {
+	width: 450px;
+	height: 350px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0
+}
+
+.nc-login-layout .left-pic span {
+	position: absolute;
+	z-index: 2;
+	top: 220px;
+	left: 100px;
+	line-height: 32px;
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	width: 250px;
+	text-align: center;
+}
+
+.nc-login-layout .left-pic p a {
+	color: #FFF;
+	position: absolute;
+	z-index: 2;
+	top: 270px;
+	left: 165px;
+	line-height: 28px;
+	font-size: 12px;
+	width: 120px;
+	text-align: center;
+}
+
+.nc-login-left {
+	line-height: 22px;
+	color: #626A73;
+	display: inline;
+	width: 450px;
+	float: left;
+	margin: 10px 0;
+}
+
+.nc-login-left h3 {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 700;
+	color: #555;
+	line-height: 30px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+.nc-login-left ol {
+	width: 420px;
+	margin-top: 20px;
+	border-bottom: dashed 1px #E7E7E7;
+}
+
+.nc-login-left ol li {
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	line-height: 48px;
+	display: block;
+	vertical-align: middle;
+	width: 200px;
+	height: 48px;
+	float: left;
+	padding: 0 0 12px 0;
+	margin: 0 0 5px 10px;
+	overflow: hidden;
+}
+
+.nc-login-left ol li i {
+	display: inline-block;
+	background: url(../images/login.png) no-repeat scroll;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+.nc-login-left ol li.ico01 i {
+	background-position: -256px 0;
+}
+
+.nc-login-left ol li.ico02 i {
+	background-position: -304px 0;
+}
+
+.nc-login-left ol li.ico03 i {
+	background-position: -352px 0;
+}
+
+.nc-login-left ol li.ico04 i {
+	background-position: -256px -48px;
+}
+
+.nc-login-left ol li.ico05 i {
+	background-position: -304px -48px;
+}
+
+.nc-login-left ol li.ico06 i {
+	background-position: -352px -48px;
+}
+
+@media projection,
+screen {
+	.ui-tabs-hide {
+		display: none;
+	}
+}
+
+@media print {
+	.ui-tabs-nav {
+		display: none;
+	}
+}
+
+.ui-tabs-nav:after {
+	display: block;
+	clear: both;
+	content: " ";
+}
+
+.ui-tabs-disabled {
+	opacity: .4;
+	filter: alpha(opacity=40);
+}
+
+.ui-tabs-loading em {
+	background: url(../images/loading.gif) no-repeat 0 50%;
+	padding: 0 0 0 20px;
+}
+
+* html .ui-tabs-nav {
+	display: inline-block;
+}
+
+*:first-child+html .ui-tabs-nav {
+	display: inline-block;
+}
+
+.nc-login ul li {
+	background: #FFF;
+	display: block;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 1px 1px;
+	float: left;
+	width: 199px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 5px -1px 0 -1px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 28px;
+	position: relative;
+	z-index: 1;
+}
+
+.nc-login ul li a {
+	color: #999;
+}
+
+.nc-login ul li.ui-tabs-selected {
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	border: solid #D8D8D8;
+	border-width: 1px 1px 0 1px;
+	background: #F9F9F9;
+	float: left;
+	width: 198px;
+	height: 36px;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.nc-login ul li.ui-tabs-selected a {
+	color: #333;
+}
+
+
+/*修改人：楚士丽*/
+
+
+/*修改时间：2016-4-14*/
+
+.register-style input {
+	color: #666;
+	text-align: left;
+}
+
+input::-moz-placeholder {
+	color: #666;
+}
+
+input::-webkit-input-placeholder {
+	color: #666;
+}
+
+input::-ms-input-placeholder {
+	color: #666;
+}
+
+.text-left {
+	float: left;
+}
+
+.text-right {
+	float: right;
+}
+
+.color-yellow {
+	color: #ff9900 !important;
+}
+
+.text-decoration: {
+	text-decoration: underline !important;
+}
+
+input:required {
+	box-shadow: none;
+}
+
+
+/*.wrapper {
+	margin: 0px auto;
+	text-align: center;
+	width: 1200px;
+}*/
+
+.register-bt {
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #ddd;
+	margin: 60px 0px;
+	font-size: 0px;
+}
+
+.register-bt span {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #dcdcdc;
+	display: block;
+	float: left;
+	border-radius: 100%;
+	font-size: 14px;
+}
+
+.register-bt p {
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.register-bt li.register-bt-active {
+	border-bottom: 2px solid #ff9801;
+}
+
+.register-bt li.register-bt-active span {
+	background: #ff9801;
+}
+
+#register-Index {
+	margin: 0px auto;
+	width: 570px;
+	text-align: center;
+}
+
+.register-style div {
+	position: relative;
+	width: 400px;
+	padding: 10px 0px;
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.register-style div.register-wrap-big {
+	width: 100% !important;
+	height: 45px;
+}
+
+.register-style div.border-none {
+	border: none !important;
+}
+
+.register-style div.border-small {
+	width: 240px;
+	float: left;
+}
+
+
+.register-style .input-small {
+	width: 165px;
+}
+
+.register-style input[type=button] {
+	cursor: pointer !important;
+}
+
+.register-style .yanzhengma {
+	width: 150px;
+	/*height: 48px;
+	line-height: 48px;*/
+	background: #ddd;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	float: Left;
+	margin-left: 10px !important;
+}
+
+.register-style input[type="checkbox"] {
+	position: absolute;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+	float: left;
+	margin-left: 0px;
+}
+
+.register-style input[type="checkbox"] + label {
+	width: 16px;
+	height: 16px;
+	display: block !important;
+	cursor: pointer;
+	border-radius: 100%;
+	border: 1px solid #333;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+}
+
+.register-style input[type="checkbox"]:checked + label {
+	width: 16px;
+	background: url(../images/accept-icon.png) 0px center no-repeat !important;
+	border: 1px solid transparent !important;
+}
+
+#find_password_form {
+	width: 405px;
+	/*margin: 0px auto;
+	text-align: center;
+	display: block;*/
+}
+
+.register-style .button-break {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+
+#register-Index p {
+	position: absolute;
+	left: 40px;
+}
+
+#register-Index p a {
+	color: #0199cb;
+}
+
+.register-style .register-icon1 {
+	width: 20px;
+	background: url(../images/register-tel-icon.png) left center no-repeat;
+}
+
+.register-style .register-icon2 {
+	width: 21px;
+	background: url(../images/register-yanzhengma-icon.png) left center no-repeat;
+}
+
+
+/*register-Index end*/
+
+#register-Email {
+	margin: 0px auto;
+	width: 405px;
+	text-align: center;
+	display: block;
+}
+
+.register-style .register-icon3 {
+	width: 21px;
+	background: url(../images/register-email-icon.png) left center no-repeat;
+	background-size: 21px auto;
+}
+
+
+/*register-Email end*/
+
+#register-Infor {
+	margin: 0px auto;
+	width: 400px;
+	text-align: center;
+	display: block;
+}
+
+#register-Infor p {
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#register-Infor p span {
+	color: #666;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.register-style .register-icon4 {
+	width: 22px;
+	background: url(../images/index/password-icon1.png) left center no-repeat;
+}
+
+.register-style .register-icon5 {
+	width: 22px;
+	background: url(../images/index/password-icon2.png) left center no-repeat;
+}
+
+.register-style .register-icon6 {
+	width: 22px;
+	background: url(../images/index/user-icon.png) left center no-repeat;
+}
+
+
+/*register-Infor end*/
+
+
+.register-success p a:hover {
+	text-decoration: none;
+}
+
+.register-success p .text-left {
+	color: #fda500;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fda500;
+}
+
+.register-success p .text-right {
+	color: #c70001;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c70001;
+}
+
+.register-after {
+	width: 500px;
+	margin: 0px auto 60px auto;
+	text-align: center;
+}
+
+.register-after p {
+	margin: 20px 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.register-after p span {
+	font-weight: normal;
+	margin-left: 20px;
+	color: #666;
+}
+
+.success-btn {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	background: #ff9900;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	font-weight: normal;
+}
+
+.register-after .text-decoration {
+	width: 400px;
+	text-align: center;
+	color: #ff9900;
+	text-decoration: underline;
+	font-weight: normal;
+	display: block;
+}
+
+.login-wrap {
+	background: #e2ebe8;
+	padding: 40px 0px;
+	margin-top: -12px;
+}
+
+#login-form {}
+
+#login-form div {
+	width: 300px !important;
+}
+
+#login-form p {
+	margin-bottom: 20px;
+	font-size:14px;
+}
+
+.parter-list {
+	font-size: 0px;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.parter-list li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+#login-form .button-break {
+	height: 40px;
+	line-height: 40px;
+}
+
+.parter-bt {
+	border-top: 1px solid #ddd;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.parter-bt span {
+	width: 50%;
+	background: #fff;
+	margin: 0px auto;
+	text-align: center;
+	display: block;
+	margin-top: -14px;
+}
+
+
+/*login end*/
+
+.register-footer {
+	margin: 40px auto 20px auto;
+}
+
+.register-footer ul {
+	font-size: 0px;
+}
+
+.register-footer ul li {
+	display: inline-block;
+	font-size: 14px;
+	height: 15px;
+	line-height: 15px;
+	margin-bottom: 10px;
+	border-right: 1px solid #ddd;
+	padding: 0px 10px;
+}
+
+.register-footer ul li:last-child {
+	border-right: none;
+}
+
+.register-footer ul li a {
+	color: #666;
+}
+
+.register-footer p {
+	color: #999;
+	font-size: 14px;
+}
+
+.alignL {
+	text-align: left;
+}
+
+.alignR {
+	text-align: right;
+}
+
+.alignC {
+	text-align: center;
+}
+
+.pt70 {
+	padding-top: 70px;
+}
+
+.ico {
+	background: url(../images/register-ico.gif) no-repeat;
+}
+
+
+/*找回密码*/
+
+.step {
+	width: 540px;
+	margin: 0 auto;
+	height: 100;
+	line-height: 40px;
+}
+
+.step p {
+	width: 502px;
+	height: 25px;
+	display: black;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.step p.step1 {
+	background-position: 0 0;
+}
+
+.step p.step2 {
+	background-position: 0 -25px;
+}
+
+.step p.step3 {
+	background-position: 0 -50px;
+}
+
+.step div {
+	width: 100%;
+}
+
+.step span {
+	width: 33.33%;
+	display: inline-block;
+	font-size: 16px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.step span:nth-child(2) {
+	text-align: center;
+}
+
+.step span:last-child {
+	text-align: right;
+}
+
+.findPswForm {
+	margin: 0 65px;
+}
+
+.findPswForm h3 {
+	margin-bottom: 5px;
+}
+
+.findPswForm li {
+	height: 50px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.findPswForm li i {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 60px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.findPswForm li i.user {
+	background-position: 5px -80px;
+}
+
+.findPswForm li i.code {
+	background-position: 5px -133px;
+}
+
+.findPswForm li i.codeNew {
+	background-position: 5px -193px;
+}
+
+.findPswForm input {
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+}
+
+.findPswForm input[type="password"] {
+	border: 1px solid #ddd;
+	width: 320px;
+	padding-left: 80px;
+}
+
+.findPswForm input.user {
+	width: 160px;
+}
+
+.findPswForm input[type="button"] {
+	width: 150px;
+	background: #ddd;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.findPswForm input[type="submit"] {
+	background: #ff9900;
+	border: 1px solid #ff9900;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	color: #fff;
+	width: 400px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+/*找回密码成功*/
+
+.findPswSucc {
+	margin-top: 100px;
+	margin-left: 230px;
+	font-size: 12px;
+	color: #999;
+	position: relative;
+}
+
+.findPswSucc i {
+	width: 98px;
+	height: 98px;
+	position: absolute;
+	left: -120px;
+	top: 0;
+	background-position: -405px -90px;
+}
+
+.findPswSucc h3 {
+	line-height: 50px;
+	font-size: 24px;
+	color: #333;
+}
+
+.findPswSucc a {
+	color: #ffa500;
+	font-size: 16px;
+	text-decoration: underline;
+	margin-left: 60px;
+}
+
+
+/*新增样式*/
+
+#btn-get-code {
+	width: 148px;
+	background: #ffa500;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#password-email {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.password-tab {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.password-tab ul {
+	font-size: 0px;
+	height: 45px;
+	line-height: 45px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	background: #f5f5f5;
+}
+
+.password-tab ul li {
+	width: 50%;
+	float:left;
+	font-size: 16px;
+	text-align: center;
+}
+
+.password-tab ul li a {
+	color: #333;
+}
+
+.password-tab ul li.tab-active {
+	background: #ff9900;
+	border-radius: 5px;
+}
+
+.password-tab ul li.tab-active a {
+	color: #fff;
+}
+
+#password-mobile {
+	width: 405px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.passwrd-email {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	display:block;
+}
+
+.passwrd-email p {
+	width: 400px !important;
+	overflow: hidden;
+}
+
+.passwrd-email span {
+	width: 50%;
+	text-align: left;
+}
+
+
+/*password-tab end*/
+
+#login-form input {
+	width: 220px ;
+	border:none;
+}
+
+#login-form input[type="submit"] {
+	width: 100%;
+}
+#register-Email #code{width:150px !important;}
+#register-Email #email{width:320px;}
+#login-form p a{
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+}
